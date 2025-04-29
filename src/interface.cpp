@@ -22,10 +22,10 @@ void interface() {
     case '3':
       task3();
       break;
-    case '6':
+    case '0':
       return;
     }
     clear_buffer();
     cout << " Press any key and enter\n";
-  } while (ch != '6');
+  } while (ch != '0');
 }
